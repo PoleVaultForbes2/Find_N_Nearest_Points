@@ -1,6 +1,7 @@
 <meta charset="utf-8" lang="en">  <!-- this line allows UTF-8 characters in the .html file -->
 
-                    **P05_KDTrees**
+**P05_KDTrees**
+==============
 
 
 Author
@@ -137,72 +138,3 @@ way to visualize and walk through my code. I used a lot of print statements arou
 were being updated. Using this I realized that I was finding the closest point, but I wasn't updating the closest distance, so
 I needed to update that in order for the visualizer to pick up on that. 
 
-<!--
-Since this is a small group assignment, give one sentence explaining what each of you contributed.
--->
-
-<!-- ... -->
-
-
-
-<!--
-Describe any serious problems you encountered.
-How much time did you spend writing new code, debugging code, thinking about the algorithms, discussing with someone else, running tests, writing comments and documentation, etc.?
-List any other comments here.
-Feel free to provide any feedback on how much you learned from doing the assignment, and whether you enjoyed doing it.
--->
-
-<!-- ... -->
-
-
-
-
-
-
-<!--   Feel free to modify the following to fit a theme of your choosing   -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> <!-- a sans-serif font -->
-<style>  /* A TAYLOR-INSPIRED THEME */
-    body {font-family:'Open Sans',sans-serif;}
-    .md a:link, .md a:visited {color:hsl(252,23.0%,44.3%); font-family:'Open Sans',sans-serif;}
-    .md table.table th {background-color:hsl(252,23.0%,44.3%);}
-    .md .noheader th {display:none;}
-    .md .firstcol td:first-child {white-space:pre;color:white;vertical-align:top;font-weight:bold;border-color:black;background:hsl(252,23.0%,54.3%);}
-    .md .firstcol tr:nth-child(even) td:first-child {background:hsl(252,23.0%,44.3%);}
-    .md div.tilde { margin: 5px 0 20px; }
-</style>
-
-
-<!-- ****************************** -->
-<!--    Leave the content below     -->
-<!-- ****************************** -->
-
-<!-- The script and style below are added for clarity and to workaround a bug -->
-<script>
-    // this is a hack to workaround a bug in Markdeep+Mathjax, where
-    // `&#36;`` is automatically converted to `\(`` and `\)`` too soon.
-    // the following code will replace the innerHTML of all elements
-    // with class "dollar" with a dollar sign.
-    setTimeout(function() {
-        var dollars = document.getElementsByClassName('dollar');
-        for(var i = 0; i < dollars.length; i++) {
-            dollars[i].innerHTML = '&#' + '36;'; // split to prevent conversion to $
-        }
-    }, 1000);
-</script>
-<style>
-    /* adding some styling to <code> tags (but not <pre><code> coding blocks!) */
-    :not(pre) > code {
-        background-color: rgba(0,0,0,0.05);
-        outline: 1px solid rgba(0,0,0,0.15);
-        margin-left: 0.25em;
-        margin-right: 0.25em;
-    }
-    /* fixes table of contents of medium-length document from looking weird if admonitions are behind */
-    .md div.mediumTOC { background: white; }
-    .md div.admonition { position: initial !important; }
-</style>
-
-<!--   Leave the following Markdeep formatting code, as this will format your text above to look nice in a wed browser   -->
-<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
-<script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>
-<script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible");</script>
