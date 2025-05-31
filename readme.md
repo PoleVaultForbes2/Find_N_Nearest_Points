@@ -8,19 +8,15 @@ Author
 =============
 
 
-<!-- fill out the following table with your information -->
-<!-- Note: wrapping table in div.noheader will hide the table's header -->
-<!-- Note: wrapping table in div.firstcol will style the first column different from other columns -->
-<div class="noheader firstcol">
-                  |             
-------------------|-------------
-name              | Josh Forbes
-computer + OS     | Windows
-time to complete  | 9 hours
-partner           | None
-additional help   | YouTube video (see reflection for more info)
-</div>
+| Category          | Details                                            |
+|-------------------|----------------------------------------------------|
+| Name              | Josh Forbes                                        |
+| Computer + OS     | Windows                                            |
+| Time to complete  | 9 hours                                            |
+| Partner           | None                                               |
+| Additional help   | YouTube video (see reflection for more info)      |
 
+                          
 
 
 
